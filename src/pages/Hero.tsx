@@ -13,11 +13,17 @@ const Hero = () => {
           className="object-cover w-full h-full blur-[1px] sm:blur-[1px] sm:block hidden"
           src={heroImage}
           alt="Muay Thai Fighters at Dragon MuayThai Galle"
+          title="Muay Thai Fighters at Dragon MuayThai Galle"
+          width="1600"
+          height="701"
         />
         <img
           className="object-cover w-full h-full blur-[1px] sm:hidden block"
           src={coach}
           alt="Muay Thai Fighters at Dragon MuayThai Galle"
+          title="Muay Thai Fighters at Dragon MuayThai Galle"
+          width="1600"
+          height="701"
         />
       </div>
       {/* White overlay for better text readability */}

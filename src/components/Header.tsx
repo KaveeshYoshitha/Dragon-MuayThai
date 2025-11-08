@@ -10,19 +10,33 @@ const Header = () => {
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="flex items-center">
           <div className="mr-3">
-            <img src={logo} alt="Dragon Muay Thai Logo" className="w-12 h-12" />
+            <img
+              src={logo}
+              alt="Dragon Muay Thai Logo"
+              title="Dragon Muay Thai Logo"
+              width="1600"
+              height="701"
+              className="w-12 h-12"
+            />
           </div>
           <div>
-            <h1 className="text-2xl font-bold tracking-wider font-saira">
+            <p className="text-2xl font-bold tracking-wider font-saira">
               <span className="text-red-500">DRAGON</span>{" "}
               <span className="text-white">MUAY THAI</span>
-            </h1>
+            </p>
             <p className="text-xs text-[#f5cf11] tracking-widest">
               GALLE · SRI LANKA
             </p>
           </div>
           <div className="ml-3">
-            <img src={wbc} alt="Dragon Muay Thai Logo" className="w-12 h-12" />
+            <img
+              src={wbc}
+              alt="WBC Logo"
+              title="WBC Logo"
+              width="1600"
+              height="701"
+              className="w-12 h-12"
+            />
           </div>
         </div>
 

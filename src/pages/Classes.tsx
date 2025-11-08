@@ -6,24 +6,28 @@ import fighter from "../assets/Fighter-training.webp";
 const classes = [
   {
     name: "Muay Thai Training",
+    alt: "Muay Thai Training at Dragon Muay Thai Galle",
     img: muayThai,
     description:
       "Master the art of eight limbs. Learn authentic Muay Thai techniques — from powerful kicks to precise elbows — under the guidance of professional fighters. Ideal for all skill levels.",
   },
   {
     name: "Boxing Training",
+    alt: "Boxing Training at Dragon Muay Thai Galle",
     img: boxingTraining,
     description:
       "Sharpen your punches, footwork, and defense with our high-energy boxing sessions. Improve coordination, endurance, and striking accuracy with expert coaching.",
   },
   {
     name: "Personal Training",
+    alt: "Personal Training at Dragon Muay Thai Galle",
     img: fighter,
     description:
       "Experience one-on-one coaching tailored to your goals. Our personal training sessions focus on technique refinement, strength development, and mental conditioning — helping you push beyond limits and unlock your full potential in Muay Thai and overall fitness.",
   },
   {
     name: "Strength & Conditioning",
+    alt: "Strength and Conditioning at Dragon Muay Thai Galle",
     img: strength,
     description:
       "Build explosive power, endurance, and agility. A dynamic blend of strength circuits and Muay Thai-inspired fitness routines to push your limits and sculpt a fighter’s physique.",
@@ -46,7 +50,11 @@ const Classes = () => {
             >
               <img
                 src={cls.img}
-                alt={cls.name}
+                alt={cls.alt}
+                title={cls.alt}
+                width="1600"
+                height="701"
+                loading="lazy"
                 className="w-full h-52 object-cover grayscale hover:grayscale-0 transition-all duration-500"
               />
               <div className="p-6">

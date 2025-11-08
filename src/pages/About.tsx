@@ -7,7 +7,11 @@ const About = () => {
         <div>
           <img
             src={Inside}
-            alt="Dragon Muay Thai Gym"
+            alt="Inside of Dragon Muay Thai Gym"
+            title="Inside of Dragon Muay Thai Gym "
+            width="1600"
+            height="701"
+            loading="lazy"
             className="rounded-lg p-2 shadow-lg border-t-2 border-l-2 border-[#f5cf11]"
           />
         </div>
