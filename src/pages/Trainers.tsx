@@ -9,7 +9,7 @@ const CoachSection = () => {
         backgroundSize: "cover",
         backgroundPosition: "20% center",
         backgroundRepeat: "no-repeat",
-        backgroundAttachment: "fixed",
+        backgroundAttachment: "scroll",
       }}
       id="Coach"
     >
