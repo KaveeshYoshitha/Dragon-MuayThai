@@ -91,28 +91,42 @@ const Header = () => {
         {isMobileMenuOpen && (
           <div className="md:hidden bg-black/90 text-white py-4 px-6 space-y-3">
             <a
-              href="#home"
+              href="#Home"
               className="block hover:text-[#f5cf11]"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Home
             </a>
             <a
-              href="#about"
+              href="#About"
               className="block hover:text-[#f5cf11]"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               About
             </a>
             <a
-              href="#services"
+              href="#Coach"
               className="block hover:text-[#f5cf11]"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Services
+              Coach
             </a>
             <a
-              href="#contact"
+              href="#Classes"
+              className="block hover:text-[#f5cf11]"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Classes
+            </a>
+            <a
+              href="#Testimonials"
+              className="block hover:text-[#f5cf11]"
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Testimonials
+            </a>
+            <a
+              href="#Contact"
               className="block hover:text-[#f5cf11]"
               onClick={() => setIsMobileMenuOpen(false)}
             >

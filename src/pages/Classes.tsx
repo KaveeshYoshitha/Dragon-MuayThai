@@ -37,7 +37,7 @@ const classes = [
 const Classes = () => {
   return (
     <section id="Classes" className="py-24 bg-black">
-      <div className="container mx-auto px-6 text-center">
+      <div className="container mx-auto px-6 text-center ">
         <h2 className="text-4xl sm:text-5xl font-extrabold text-[#f5cf11] uppercase tracking-widest mb-16 ">
           Our <span className="text-red-500">Classes</span>
         </h2>

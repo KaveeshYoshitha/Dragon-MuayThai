@@ -3,25 +3,29 @@ import CoachBackground from "../assets/Background-coach.png";
 const CoachSection = () => {
   return (
     <section
-      className="relative bg-black text-white flex flex-col md:flex-row items-center md:items-center justify-between min-h-screen px-4 sm:px-6 md:px-20 py-16"
+      className="relative bg-black text-white flex flex-col md:flex-row items-center justify-between min-h-screen px-4 sm:px-6 md:px-20 py-16 "
       style={{
         backgroundImage: `url(${CoachBackground})`,
         backgroundSize: "cover",
-        backgroundPosition: "left center",
+        backgroundPosition: "20% center",
         backgroundRepeat: "no-repeat",
+        backgroundAttachment: "fixed",
       }}
       id="Coach"
     >
-      {/* Tagline + description under it */}
-      <div className="relative w-full px-4 sm:px-6 max-w-full md:absolute md:top-20 md:left-3/6 md:mt-20 md:max-w-lg">
+      {/* Dark overlay only for mobile */}
+      {/* <div className="absolute inset-0 bg-black/10 md:bg-transparent"></div> */}
+
+      {/* Text content */}
+      <div className="relative w-full top-20 px-4 sm:px-6 max-w-full md:absolute md:top-20 md:left-3/6 md:mt-20 md:max-w-lg">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white uppercase tracking-wide drop-shadow-lg">
-          {`Meet our `}{" "}
+          {`Meet our `}
           <span className="text-[#f5cf11] sm:border-b-4 sm:border-red-500 sm:pb-1">
             Coach
           </span>
         </h2>
 
-        <div className="mt-6 text-white">
+        <div className="mt-6 text-white bg-black/50 md:bg-transparent p-4 rounded-2xl">
           <h3 className="text-2xl sm:text-3xl font-extrabold text-[#f5cf11] mb-2">
             KRU CHAMINDA GAMAGE
           </h3>
@@ -38,8 +42,6 @@ const CoachSection = () => {
           </p>
         </div>
       </div>
-
-      {/* (Optional) keep space for visuals or other layout elements */}
     </section>
   );
 };
